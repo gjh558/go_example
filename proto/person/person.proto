@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message Child {
+  int32 age = 1;
+  int32 name = 2;
+  int32 salary = 3;
+}
+
+message Person {
+  int32 age = 1;
+  int32 name = 2;
+  int32 salary = 3;
+  Child child = 4;
+}
